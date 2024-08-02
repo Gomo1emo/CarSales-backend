@@ -11,7 +11,7 @@ import com.khotso.g.carsales_app.service.carServive;
 
 @RestController
 @RequestMapping("/api/Cars")
-@CrossOrigin(origins = "http://localhost:4200/**", allowCredentials = "true")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class carController {
 
     @Autowired
