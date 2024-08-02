@@ -1,6 +1,6 @@
-package service;
+package com.khotso.g.carsales_app.service;
 
-import entity.cars;
+import com.khotso.g.carsales_app.entity.cars;
 
 import java.util.List;
 

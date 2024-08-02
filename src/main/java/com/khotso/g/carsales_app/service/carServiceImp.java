@@ -1,9 +1,9 @@
-package service;
+package com.khotso.g.carsales_app.service;
 
-import entity.cars;
+import com.khotso.g.carsales_app.entity.cars;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.carRepo;
+import com.khotso.g.carsales_app.repository.carRepo;
 
 import java.util.List;
 import java.util.Optional;
@@ -43,7 +43,7 @@ public class carServiceImp implements carServive {
         CarsFromDb.setModel(Cars.getModel());
         CarsFromDb.setColor(Cars.getColor());
         CarsFromDb.setVin(Cars.getVin());
-        CarsFromDb.setDesc(Cars.getDesc());
+        CarsFromDb.setDescription(Cars.getDescription());
         CarsFromDb.setDrive(Cars.getDrive());
         CarsFromDb.setFuel(Cars.getFuel());
         CarsFromDb.setTransmission(Cars.getTransmission());

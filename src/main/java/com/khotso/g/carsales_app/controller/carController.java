@@ -1,14 +1,16 @@
-package controller;
+package com.khotso.g.carsales_app.controller;
 
 
-import entity.cars;
+import com.khotso.g.carsales_app.entity.cars;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+
 import java.util.List;
-import service.carServive;
+import com.khotso.g.carsales_app.service.carServive;
+
 @RestController
-@RequestMapping("/api/v1/Cars")
+@RequestMapping("/api/Cars")
 @CrossOrigin(origins = "http://localhost:4200/**", allowCredentials = "true")
 public class carController {
 

@@ -1,4 +1,4 @@
-package entity;
+package com.khotso.g.carsales_app.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -28,7 +28,7 @@ public class cars {
 
     @NonNull
     @Column(length = 5000)
-    private String desc;
+    private String description;
 
     @NonNull
     private String color;
