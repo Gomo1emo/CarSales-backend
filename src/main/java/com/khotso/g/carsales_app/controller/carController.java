@@ -10,7 +10,7 @@ import java.util.List;
 import com.khotso.g.carsales_app.service.carServive;
 
 @RestController
-@RequestMapping("/api/Cars")
+@RequestMapping("/api/v1/Cars")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class carController {
 
