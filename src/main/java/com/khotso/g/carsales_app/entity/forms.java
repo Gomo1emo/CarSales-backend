@@ -32,5 +32,7 @@ public class forms {
     @NonNull
     private String date;
 
+    private String carModel;
+
     private String additionalDetails;
 }

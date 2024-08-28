@@ -4,10 +4,12 @@ import com.khotso.g.carsales_app.entity.forms;
 import com.khotso.g.carsales_app.entity.cars;
 import com.khotso.g.carsales_app.repository.formsRepo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class formServiceImp implements formService{
     @Autowired
     private formsRepo FormsRepo;
@@ -33,6 +35,7 @@ public class formServiceImp implements formService{
         FormsFromDb.setPhone(Forms.getPhone());
         FormsFromDb.setEmail(Forms.getEmail());
         FormsFromDb.setTime(Forms.getTime());
+        FormsFromDb.setCarModel(Forms.getCarModel());
         FormsFromDb.setAdditionalDetails(Forms.getAdditionalDetails());
         FormsRepo.save(FormsFromDb);
 

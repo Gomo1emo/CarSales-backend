@@ -1,8 +1,6 @@
 package com.khotso.g.carsales_app.controller;
 
-import com.khotso.g.carsales_app.entity.cars;
 import com.khotso.g.carsales_app.entity.forms;
-import com.khotso.g.carsales_app.service.carServive;
 import com.khotso.g.carsales_app.service.formService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
