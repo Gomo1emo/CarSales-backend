@@ -48,6 +48,7 @@ public class carServiceImp implements carServive {
         CarsFromDb.setFuel(Cars.getFuel());
         CarsFromDb.setTransmission(Cars.getTransmission());
         CarsFromDb.setPrice(Cars.getPrice());
+        CarsFromDb.setTankSize(Cars.getTankSize());
         CarRepo.save(CarsFromDb);
 
     }

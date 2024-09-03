@@ -64,6 +64,9 @@ public class cars {
     private String fuel;
 
     @NonNull
+    private String tankSize;
+
+    @NonNull
     private String drive;
 
     @NonNull
