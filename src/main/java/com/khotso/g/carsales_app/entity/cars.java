@@ -18,7 +18,7 @@ public class cars {
     private Long year;
 
     @NonNull
-    private Long milage;
+    private Long millage;
 
     @NonNull
     private String make;

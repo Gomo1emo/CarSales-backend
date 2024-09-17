@@ -39,7 +39,7 @@ public class carServiceImp implements carServive {
         CarsFromDb.setBody(Cars.getBody());
         CarsFromDb.setYear(Cars.getYear());
         CarsFromDb.setMake(Cars.getMake());
-        CarsFromDb.setMilage(Cars.getMilage());
+        CarsFromDb.setMillage(Cars.getMillage());
         CarsFromDb.setModel(Cars.getModel());
         CarsFromDb.setColor(Cars.getColor());
         CarsFromDb.setVin(Cars.getVin());
