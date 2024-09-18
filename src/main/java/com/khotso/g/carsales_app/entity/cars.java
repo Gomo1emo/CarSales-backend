@@ -1,5 +1,6 @@
 package com.khotso.g.carsales_app.entity;
 
+import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NonNull;
@@ -36,22 +37,22 @@ public class cars {
     @NonNull
     private Long price;
 
-    @NonNull
+    @Nullable
     private String image1;
 
-    @NonNull
+    @Nullable
     private String image2;
 
-    @NonNull
+    @Nullable
     private String image3;
 
-    @NonNull
+    @Nullable
     private String image4;
 
-    @NonNull
+    @Nullable
     private String image5;
 
-    @NonNull
+    @Nullable
     private String image6;
 
     @NonNull

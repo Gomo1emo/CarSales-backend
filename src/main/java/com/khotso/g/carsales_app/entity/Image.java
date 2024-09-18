@@ -1,9 +1,6 @@
 package com.khotso.g.carsales_app.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,8 +15,14 @@ public class Image {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
+    @Column(length = 1000)
     private String name;
+
+    @Column(length = 1000)
     private String imageUrl;
+
+    @Column(length = 1000)
     private String imageId;
 
     public Image(String name, String imageUrl, String imageId) {
