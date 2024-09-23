@@ -1,7 +1,7 @@
 package com.khotso.g.carsales_app.service;
 
 import com.khotso.g.carsales_app.entity.forms;
-import com.khotso.g.carsales_app.entity.cars;
+
 import com.khotso.g.carsales_app.repository.formsRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

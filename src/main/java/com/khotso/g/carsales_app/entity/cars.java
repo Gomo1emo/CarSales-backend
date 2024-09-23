@@ -1,18 +1,21 @@
 package com.khotso.g.carsales_app.entity;
 
 import jakarta.annotation.Nullable;
-import jakarta.persistence.*;
+
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.Setter;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-@Entity
+
+@Document
 @Getter
 @Setter
 public class cars {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @NonNull
@@ -28,7 +31,7 @@ public class cars {
     private String model;
 
     @NonNull
-    @Column(length = 5000)
+//    @Column(length = 5000)
     private String description;
 
     @NonNull

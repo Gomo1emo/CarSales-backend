@@ -2,9 +2,10 @@ package com.khotso.g.carsales_app.service;
 
 import com.khotso.g.carsales_app.entity.Image;
 import com.khotso.g.carsales_app.repository.ImageRepo;
-import jakarta.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
