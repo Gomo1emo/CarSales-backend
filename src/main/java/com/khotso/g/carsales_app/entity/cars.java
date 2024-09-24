@@ -16,7 +16,7 @@ public class cars {
 
     @Id
 //    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private String id;
 
     @NonNull
     private Long year;
